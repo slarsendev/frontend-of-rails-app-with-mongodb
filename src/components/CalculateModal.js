@@ -49,7 +49,7 @@ function CalculateModal({ show, handleClose, setProduct }) {
       <Modal.Body>
         <Form>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Enter Dimensions</Form.Label>
+            <Form.Label>Enter Dimensions (length/width/height)</Form.Label>
             <Row>
               <Col>
                 <Form.Control type="number" value={length} onChange={(e) => setLength(e.target.value)} placeholder="Enter length" />
